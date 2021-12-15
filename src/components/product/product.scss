@@ -1,0 +1,53 @@
+.product{
+    .product-header{
+        height: 170px;
+        width: 150px;
+        background-size: cover;
+        position: relative;
+        padding: 6px;
+        span{
+            border-radius: 10px;
+            padding: 4px;
+            margin-right: 2px;
+        }
+    }
+    .product-footer{
+        h4{
+            margin-top: 5px;
+            font-size: 15px;
+        }
+    }
+}
+
+.item-tag-list {
+    right: 0;
+    position: relative;
+}
+
+.slider-item-reduction { 
+    color: crimson;
+}
+
+.item-tag-list .tag-new {
+    background-color: aqua;
+}
+.item-tag-list .tag-sale {
+    background-color: coral;
+    color: black
+}
+.item-tag-list .tag-rare {
+    background-color: cornflowerblue;
+    color: black;
+}
+
+.item-heart{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    .btn-heart{
+        border: none;
+        right: 0;
+    }
+}
